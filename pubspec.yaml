@@ -1,0 +1,32 @@
+name: zod_manpower_ios
+description: ZOD Manpower Recruitment App - iOS & Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:   # iOS/Android localizations සඳහා අවශ්‍යයි
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  intl: ^0.20.2            # version එක SDK එකට ගැලපෙන ලෙස නිවැරදි කළා
+  url_launcher: ^6.2.1
+  share_plus: ^7.2.1
+  printing: ^5.11.1
+  path_provider: ^2.1.1
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/   # අනාගත භාෂා ගොනු සඳහා
